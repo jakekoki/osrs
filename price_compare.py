@@ -42,6 +42,12 @@ def price_compare(item1, item2):
     else:
         return "These items are equal price!"
 
+def price_matrix():
+    '''
+    Creates price matrix of list of searches.
+    '''
+    pass
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Tool for comparing price of two items.') 
     parser.add_argument('--item1', help='First item to compare.')
